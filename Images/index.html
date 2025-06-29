@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        .grid-container{
+            display: grid;
+            min-height:100vh;
+            grid-template-areas: 
+            "header header header header"
+            "articles articles articles index"
+            "main main main index"
+            "footer footer footer footer";
+            grid-template-rows: 200px 1fr 1fr 100px;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            gap: 10px;
+
+
+        }
+
+        header{
+            grid-area: header; 
+            border: 2px solid green;
+            background-color: green;
+            color: black;
+            text-align: center;
+        
+        }
+
+        .card{
+            border: 2px solid pink;
+            gap: 15px;
+        }
+        .articles{
+            grid-area: articles; 
+            border: 2px solid blue;
+            background-color: blue;
+            color: black;
+            display: flex; 
+            justify-content: space-between;
+            padding: 5px;
+            flex-wrap: wrap;
+             
+        }
+        
+         .index{
+            grid-area: index; 
+            border: 2px solid red;
+            background-color: red;
+            color: black;
+            text-align: center;
+        }
+
+         .main{
+            grid-area: main; 
+            border: 2px solid yellow;
+            background-color: yellow;
+            color: black;
+            text-align: center;
+            display: flex; 
+            justify-content: space-between;
+            padding: 5px;
+        
+        }
+         .footer{
+            grid-area: footer; 
+            border: 2px solid orange;
+            background-color: orange;
+            color: black;
+            text-align: center;
+        
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="grid-container">
+        <header>header</header>
+        <main class="articles">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </main>
+        <aside class="index">index</aside>
+        <main class="main">
+            <div class="card">card</div>
+            <div class="card">card</div>
+            <div class="card">card</div>
+        </main>
+        <footer class="footer">footer</footer>
+    </div>
+</body>
+</html>

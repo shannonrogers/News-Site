@@ -1,0 +1,34 @@
+main{ border: 2px solid black}
+header{ border: 2px solid black}
+aside{ border: 2px solid black}
+nav{ border: 2px solid black}
+footer{ border: 2px solid black}
+.grid-container{
+    display: grid;
+   grid-template-areas: 
+   "header header header header"
+   "grid grid grid aside"
+   "categories categories categories aside"
+   "footer footer footer footer";
+}
+
+.header{ grid-area: header;
+    background-color: #171d3c;
+
+}
+.grid{ grid-area: grid;
+    display: grid; 
+    padding: 50px;
+    grid-template-columns: 100px 100px 100px 100px;
+    grid-template-rows: 50px 50px;
+}
+.aside{ grid-area: aside}
+.categories{ grid-area: categories}
+.footer{ grid-area: footer}
+
+#logo{ 
+    height: 200px;
+    width: 200px;
+    display:inline
+}
+

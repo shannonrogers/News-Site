@@ -61,17 +61,12 @@
 
 
 /* main content */
-        .card{
-            border: 2px solid pink;
-            gap: 15px;
-        }
+       .card{
+        gap: 10px
+       }
         .articles{
             grid-area: articles; 
-            border: 2px solid blue;
-            background-color: blue;
-            color: black;
             display: grid; 
-            
             display: flex; 
             justify-content: space-between;
             padding: 5px;

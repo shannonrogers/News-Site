@@ -1,8 +1,17 @@
 main{ border: 2px solid black}
-header{ border: 2px solid black}
 aside{ border: 2px solid black}
-nav{ border: 2px solid black}
 footer{ border: 2px solid black}
+button{ 
+    border: 1px solid #161d3c;
+    color: #161d3c;
+}
+
+.navbar {color: #161d3c;}
+.navbar-expand-lg {color: #161d3c;}
+.bg-body-tertiary{
+    color: #161d3c;
+}
+
 .grid-container{
     display: grid;
    grid-template-areas: 

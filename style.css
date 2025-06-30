@@ -3,7 +3,7 @@ margin:0;
 border-radius: 5px;
 font-family:Arial, Helvetica, sans-serif;
 font-weight:100;
-color:#161d3c
+
 }
 
 
@@ -25,14 +25,16 @@ gap: 15px;
 }
 
 /* header - logo and navbar */
-.menu{
+nav{
 position: sticky; 
 top:0;
+/* not sure why this isn't working, any ideas? */
 text-align: center;
 padding-left: 50px;
 padding-right: 50px;
 background-color:#161d3c;
 }
+
 
 .header{
 grid-area: header; 
@@ -80,17 +82,26 @@ color: #e95d12fb;
 }
 
 .card{
+    border: 2px solid orange;
+    margin-bottom: 20px;
 gap: 10px;
+}
+
+.card-image{
+    max-height: 400px;
+    max-width: 400px;
+    object-fit: cover;
+   
 }
 
 .articles{    
 grid-area: articles; 
 margin-left: 10px;
 margin-right: 10px; 
+
 }
 
 .articles-ordered{ 
-display: grid; 
 display: flex; 
 justify-content: space-between;
 padding: 5px;

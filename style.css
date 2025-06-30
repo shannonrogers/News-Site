@@ -149,6 +149,10 @@ color: whitesmoke;
 grid-area: main; 
 
 }
+
+figure{
+    text-align: center;
+}
 .main-ordered{
 display: flex; 
 justify-content: center;

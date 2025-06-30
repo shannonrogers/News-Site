@@ -153,6 +153,19 @@ grid-area: main;
 figure{
     text-align: center;
 }
+.to-page{
+    font-size: x-large;
+    text-decoration: none;
+    color:#4787b2;
+}
+
+.to-page:hover{
+    color:#e95d12fb;
+}
+
+.to-page:visited{
+    color:#e95d12fb;
+}
 .main-ordered{
 display: flex; 
 justify-content: center;

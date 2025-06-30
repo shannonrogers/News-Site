@@ -26,8 +26,10 @@ gap: 15px;
 
 /* header - logo and navbar */
 nav{
-position: sticky; 
+position: fixed;
 top:0;
+right:0;
+z-index: 1;
 /* not sure why this isn't working, any ideas? */
 text-align: center;
 padding-left: 50px;
@@ -37,6 +39,7 @@ background-color:#161d3c;
 
 
 .header{
+  
 grid-area: header; 
 background-color:#161d3c;
 }
@@ -157,6 +160,23 @@ color:whitesmoke;
 }
 
 .caption{color:whitesmoke}
+
+.figcaption{ 
+  
+}
+
+.list{
+    text-decoration: none;
+    color:#4787b2;
+}
+
+.list:hover{
+    color:#e95d12fb;
+}
+
+.list:visited{
+    color:#e95d12fb;
+}
 
 .main-image{
 object-fit: cover;

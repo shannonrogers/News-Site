@@ -35,6 +35,7 @@ text-align: center;
 padding-left: 50px;
 padding-right: 50px;
 background-color:#161d3c;
+font-size: large;
 }
 
 
@@ -50,11 +51,12 @@ color: whitesmoke;
 align-items: center;
 gap:10px;
 background-color:#161d3c;
+font-size: large;
 }
 
 #logo{
-height: 200px;
-width: 200px;
+height: 250px;
+width: 250px;
 }
 
 .header-links{
@@ -97,6 +99,14 @@ gap: 10px;
    
 }
 
+.metadata{
+    font-size: x-small;
+    text-align: right;
+    padding-top: 5px;
+    padding: 0;
+
+}
+
 .articles{    
 grid-area: articles; 
 margin-left: 10px;
@@ -113,6 +123,7 @@ flex-wrap: wrap;
 
 .index{
 grid-area: index; 
+
 text-align: center;
 background-color: #4787b2;
 color: whitesmoke;
@@ -164,7 +175,7 @@ figure{
 }
 
 .to-page:visited{
-    color:#e95d12fb;
+    color:#4787b2;
 }
 .main-ordered{
 display: flex; 
@@ -176,20 +187,17 @@ background-color:#161d3c;
 color:whitesmoke;
 }
 
-.caption{color:whitesmoke}
 
-.figcaption{ 
-  
-}
 
 .list{
     text-decoration: none;
-    color:#4787b2;
+    color:whitesmoke
 }
 
 .list:hover{
-    color:#e95d12fb;
+     color:#e95d12fb;
 }
+
 
 .list:visited{
     color:#e95d12fb;
